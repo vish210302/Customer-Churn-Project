@@ -7,8 +7,6 @@ This project is a machine learning project focusing on customer churn prediction
 - API (FastAPI)
 - Automation (Docker)
 
-(You can also take a look at the [Medium](https://medium.com/@ramazanolmeez/end-to-end-machine-learning-project-churn-prediction-e9c4d0322ac9) article that hosts all the processes of the project)
-
 ## Project Folder Structure
 ```bash
 Telco Customer Churn Project/
@@ -47,14 +45,14 @@ Telco Customer Churn Project/
 2. **Interface**: Using the model, the `streamlit-app.py` script allows the user to enter new customer information and based on this information the churn probability is estimated. Furthermore, the overall SHAP graph of the model and the specific SHAP graph of the selected customer are shown.
 3. **API**: The `fast-api.py` script creates an API using the model created with train_model.py. This API takes customer data and returns the churn probability.
 4. **Automation**: Using Docker, the project is containerized and made executable through the `predict.py` script. This script takes customer data and calculates the churn probability.
-
+NOTE: The churn prediction value in streamlit app is being fetched from FastApi response.
 
 ## Usage
 
 ### 
 1. Clone the project
 ```bash
-git clone https://github.com/rolmez/Customer-Churn-Project.git
+git clone https://github.com/shgupta/Customer-Churn-Project.git
 ```
 2. Go to the project directory
 ```bash
@@ -87,11 +85,11 @@ python predict.py
 ### or Docker
 1. Run the following command to create the Docker container in the project's home folder:
 ```bash
-  docker build -t telco-churn .
+  docker build -t churn-pred .
 ```
 2. Run the following command to start the Docker container:
 ```bash
-  docker run -it telco-churn
+  docker run -it churn-pred
 ```
 
 ## Some images from the project
