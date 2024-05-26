@@ -52,7 +52,7 @@ NOTE: The churn prediction value in streamlit app is being fetched from FastApi 
 ### 
 1. Clone the project
 ```bash
-git clone https://github.com/shgupta/Customer-Churn-Project.git
+git clone https://github.com/shgupta1461/Customer-Churn-Project.git
 ```
 2. Go to the project directory
 ```bash
