@@ -91,16 +91,3 @@ python predict.py
 ```bash
   docker run -it churn-pred
 ```
-
-## Some images from the project
-### Streamlit
-![Streamlit Overview](photos/streamlit%201.png)
-![Actual-Prediction](photos/streamlit%202.png)
-![SHAP](photos/streamlit%203.png)
-![SHAP 2](photos/streamlit%204.png)
-### API
-![FastAPI](photos/fast-api%202.png)
-![FastAPI](photos/fast-api%203.png)
-![FastAPI](photos/fast-api%204.png)
-### Docker
-![Docker Run](photos/docker%20run.png)
