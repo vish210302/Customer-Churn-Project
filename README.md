@@ -1,7 +1,7 @@
 
 # Customer Churn Project
 
-This project is a machine learning project focusing on customer churn prediction. The project consists of 4 main steps: 
+This project is a machine learning project focusing on customer churn prediction. It basically finds the probability of Churn given the 19 parameters as input. Here we are fetching the probability of churn via an FastAPI call and prediction request is sent to the /predict endpoint. The project consists of 4 main steps: 
 - Data Preprocessing and Model Development (CatBoost)
 - Interface (Streamlit)
 - API (FastAPI)
@@ -18,10 +18,6 @@ Telco Customer Churn Project/
 │
 ├── model/
 │   └── cat_model.cbm
-│
-├── notebooks/
-│   ├── telco-customer-churn-eda.ipynb
-│   ├── telco-catboost-xgboost-shap-lime.ipynb
 │
 ├── src/
 │   ├── fast-api.py
@@ -91,3 +87,11 @@ python predict.py
 ```bash
   docker run -it churn-pred
 ```
+
+
+CONTRIBUTED BY:-
+Group 9
+1. Shubham Gupta (202318052)
+2. Vishaka Niar (202318041)
+3. Srushti Bagchandani (202318047)
+4. Kavisha Madani (202318007)
