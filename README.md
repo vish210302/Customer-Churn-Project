@@ -92,6 +92,6 @@ python predict.py
 CONTRIBUTED BY:-
 Group 9
 1. Shubham Gupta (202318052)
-2. Vishaka Niar (202318041)
+2. Vishaka Nair (202318041)
 3. Srushti Bagchandani (202318047)
 4. Kavisha Madani (202318007)
