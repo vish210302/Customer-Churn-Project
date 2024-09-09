@@ -2,7 +2,7 @@
 # Customer Churn Project
 
 This project is a machine learning project focusing on customer churn prediction. It basically finds the probability of Churn given the 19 parameters as input. Here we are fetching the probability of churn via an FastAPI call and prediction request is sent to the /predict endpoint. The project consists of 4 main steps: 
-- Data Preprocessing and Model Development (CatBoost)
+- Data Preprocessing and Model Development (CatBoost and ANN) [Use of Mutual Information Scores to select important features]
 - Interface (Streamlit)
 - API (FastAPI)
 - Automation (Docker)
@@ -42,6 +42,9 @@ Telco Customer Churn Project/
 3. **API**: The `fast-api.py` script creates an API using the model created with train_model.py. This API takes customer data and returns the churn probability.
 4. **Automation**: Using Docker, the project is containerized and made executable through the `predict.py` script. This script takes customer data and calculates the churn probability.
 NOTE: The churn prediction value in streamlit app is being fetched from FastApi response.
+
+## Evaluation results:
+Obtained 79% accuracy using ANN model and 78% accuracy using CatBoost model
 
 ## Usage
 
